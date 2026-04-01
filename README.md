@@ -24,13 +24,14 @@ This repository documents prompt logic across Claude Code across all major promp
 
 ## Quick navigation
 
-### System prompt
-
-- [main-system-prompt.md](system-prompt/main-system-prompt.md)
+- [auto-mode.md](commands/auto-mode.md)
 - [security-instruction.md](system-prompt/security-instruction.md)
 
 ### Tools
 
+### Coverage audit
+
+- [prompt-source-audit.md](audit/prompt-source-audit.md)
 - [file-tools.md](tools/file-tools.md)
 - [shell-tools.md](tools/shell-tools.md)
 - [search-tools.md](tools/search-tools.md)
@@ -72,6 +73,7 @@ This repository documents prompt logic across Claude Code across all major promp
 
 ### Internal agent prompts
 
+│   └── auto-mode.md
 - [internal-agent-prompts.md](internal-agents/internal-agent-prompts.md)
 
 ### Permission/classifier prompts
@@ -89,9 +91,7 @@ This repository documents prompt logic across Claude Code across all major promp
 
 ---
 
-## Repository layout
-
-```
+- Source-to-doc audit mapping for prompt-bearing files
 claude-code-system-promtps/
 ├── README.md
 ├── .gitignore
@@ -134,7 +134,8 @@ claude-code-system-promtps/
 ├── commands/
 │   ├── review.md
 │   ├── ultraplan.md
-│   └── init-and-insights.md
+│   ├── init-and-insights.md
+│   └── auto-mode.md
 │
 ├── memory/
 │   └── memory-prompts.md
@@ -148,8 +149,11 @@ claude-code-system-promtps/
 ├── permissions/
 │   └── permission-and-classifier-prompts.md
 │
-└── interface/
-    └── output-and-teleport-prompts.md
+├── interface/
+│   └── output-and-teleport-prompts.md
+│
+└── audit/
+    └── prompt-source-audit.md
 ```
 
 ---
@@ -176,6 +180,7 @@ Supporting prompt surfaces include memory extraction/selection prompts, compacti
 - Internal agent prompts and teammate addenda
 - Permission/classifier prompt surfaces
 - UI/interface prompt surfaces (output styles, teleport)
+- Source-to-doc audit mapping for prompt-bearing files
 
 ---
 
