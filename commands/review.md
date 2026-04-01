@@ -29,7 +29,7 @@ Keep concise but thorough. Focus on:
 
 Format with clear sections and bullet points.
 
-PR number: ${args}
+PR number: <runtime args interpolation>
 ```
 
 `/review` is a builtin prompt command (`type: "prompt"`) and remains purely local.

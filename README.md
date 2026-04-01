@@ -1,18 +1,56 @@
 # Claude Code — Complete AI Prompt Reference
 
-Curated reference of prompt text used in Claude Code, extracted and organized into standalone docs.
+Curated reference of prompt text used in Claude Code, extracted from source and organized into standalone markdown docs.
 
 ---
 
 ## What this repo contains
 
-This folder documents prompt logic across Claude Code in five groups:
+This repository documents prompt logic across Claude Code in five groups:
 
 - **System prompt** assembly and policy sections
 - **Tool prompts** (`DESCRIPTION` / `PROMPT` and prompt builders)
 - **Skill prompts** (bundled slash-command workflows)
 - **Browser automation** prompt guidance
 - **Command-specific prompts** (`/review`, `/ultraplan`)
+
+---
+
+## Quick navigation
+
+### System prompt
+- [main-system-prompt.md](system-prompt/main-system-prompt.md)
+- [security-instruction.md](system-prompt/security-instruction.md)
+
+### Tools
+- [file-tools.md](tools/file-tools.md)
+- [shell-tools.md](tools/shell-tools.md)
+- [search-tools.md](tools/search-tools.md)
+- [agent-coordination.md](tools/agent-coordination.md)
+- [planning-tools.md](tools/planning-tools.md)
+- [task-management.md](tools/task-management.md)
+- [team-coordination.md](tools/team-coordination.md)
+- [scheduling.md](tools/scheduling.md)
+- [worktree-tools.md](tools/worktree-tools.md)
+- [mcp-tools.md](tools/mcp-tools.md)
+- [misc-tools.md](tools/misc-tools.md)
+
+### Skills
+- [batch.md](skills/batch.md)
+- [simplify.md](skills/simplify.md)
+- [debug.md](skills/debug.md)
+- [stuck.md](skills/stuck.md)
+- [remember.md](skills/remember.md)
+- [skillify.md](skills/skillify.md)
+- [loop.md](skills/loop.md)
+- [schedule.md](skills/schedule.md)
+- [claude-api.md](skills/claude-api.md)
+
+### Other prompt surfaces
+- [chrome-prompts.md](browser-automation/chrome-prompts.md)
+- [buddy-prompt.md](companion/buddy-prompt.md)
+- [review.md](commands/review.md)
+- [ultraplan.md](commands/ultraplan.md)
 
 ---
 
@@ -66,7 +104,7 @@ claude-code-system-promtps/
 
 ## Prompt architecture (high-level)
 
-Claude Code prompt behavior is mostly split into three layers:
+Claude Code prompt behavior is split into three layers:
 
 1. **Global system prompt** (`src/constants/prompts.ts`)
    - static/cached sections
@@ -125,4 +163,4 @@ Claude Code prompt behavior is mostly split into three layers:
 
 - This reference tracks prompt material from Claude Code source files.
 - No external repository is used as a source of truth for this folder.
-- If an external URL/name appears in quoted prompt text, it is preserved because it exists in source.
+- If an external URL/name appears in quoted prompt text, it is preserved only because it exists in source.

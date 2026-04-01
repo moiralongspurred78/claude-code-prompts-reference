@@ -66,7 +66,7 @@ Only use 0/30 when user explicitly requires exact timing.
 - jobs fire only while REPL idle
 - recurring tasks have deterministic jitter (up to 10% period, max 15 min)
 - one-shot tasks landing on :00/:30 may fire up to 90s early
-- recurring jobs auto-expire after ${DEFAULT_MAX_AGE_DAYS} days
+- recurring jobs auto-expire after `DEFAULT_MAX_AGE_DAYS` days (constant from `ScheduleCronTool/prompt.ts`)
 
 Returns a job ID you can pass to CronDelete.
 ```
