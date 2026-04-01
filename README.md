@@ -73,7 +73,94 @@ This repository documents prompt logic across Claude Code across all major promp
 
 ### Internal agent prompts
 
-│   └── auto-mode.md
+│ └── auto-mode.md
+
+- [internal-agent-prompts.md](internal-agents/internal-agent-prompts.md)
+
+### Permission/classifier prompts
+
+- [permission-and-classifier-prompts.md](permissions/permission-and-classifier-prompts.md)
+
+### Interface prompts
+
+- [output-and-teleport-prompts.md](interface/output-and-teleport-prompts.md)
+
+# Claude Code — Complete AI Prompt Reference
+
+Curated reference of prompt text used in Claude Code, extracted from source and organized into standalone markdown docs.
+
+---
+
+## What this repo contains
+
+This repository documents prompt logic across Claude Code across all major prompt surfaces:
+
+- **System prompt** assembly and policy sections
+- **Tool prompts** (`DESCRIPTION` / `PROMPT` and prompt builders)
+- **Skill prompts** (bundled slash-command workflows)
+- **Browser automation** prompt guidance
+- **Command-specific prompts** (`/review`, `/ultraplan`, `/init`, `/insights`, `auto-mode`)
+- **Memory system prompts** (selection, extraction, session memory, consolidation)
+- **Service-level prompts** (compact, summaries, suggestions, search/title)
+- **Internal agent prompts** (verification/statusline/teammate/agent generation)
+- **Permission/classifier prompts** (permission explainer, auto-mode classifier surfaces)
+- **Interface prompts** (output styles, teleport title/branch)
+- **Source coverage audit** for prompt-bearing files
+
+---
+
+## Quick navigation
+
+### System prompt
+
+- [main-system-prompt.md](system-prompt/main-system-prompt.md)
+- [security-instruction.md](system-prompt/security-instruction.md)
+- [effective-system-prompt-selection.md](system-prompt/effective-system-prompt-selection.md)
+
+### Tools
+
+- [file-tools.md](tools/file-tools.md)
+- [shell-tools.md](tools/shell-tools.md)
+- [search-tools.md](tools/search-tools.md)
+- [agent-coordination.md](tools/agent-coordination.md)
+- [planning-tools.md](tools/planning-tools.md)
+- [task-management.md](tools/task-management.md)
+- [team-coordination.md](tools/team-coordination.md)
+- [scheduling.md](tools/scheduling.md)
+- [worktree-tools.md](tools/worktree-tools.md)
+- [mcp-tools.md](tools/mcp-tools.md)
+- [misc-tools.md](tools/misc-tools.md)
+
+### Skills
+
+- [batch.md](skills/batch.md)
+- [simplify.md](skills/simplify.md)
+- [debug.md](skills/debug.md)
+- [stuck.md](skills/stuck.md)
+- [remember.md](skills/remember.md)
+- [skillify.md](skills/skillify.md)
+- [loop.md](skills/loop.md)
+- [schedule.md](skills/schedule.md)
+- [claude-api.md](skills/claude-api.md)
+- [update-config.md](skills/update-config.md)
+
+### Command prompt surfaces
+
+- [review.md](commands/review.md)
+- [ultraplan.md](commands/ultraplan.md)
+- [init-and-insights.md](commands/init-and-insights.md)
+- [auto-mode.md](commands/auto-mode.md)
+
+### Memory prompts
+
+- [memory-prompts.md](memory/memory-prompts.md)
+
+### Service prompts
+
+- [session-and-meta-prompts.md](services/session-and-meta-prompts.md)
+
+### Internal agent prompts
+
 - [internal-agent-prompts.md](internal-agents/internal-agent-prompts.md)
 
 ### Permission/classifier prompts
@@ -89,16 +176,23 @@ This repository documents prompt logic across Claude Code across all major promp
 - [chrome-prompts.md](browser-automation/chrome-prompts.md)
 - [buddy-prompt.md](companion/buddy-prompt.md)
 
+### Coverage audit
+
+- [prompt-source-audit.md](audit/prompt-source-audit.md)
+
 ---
 
-- Source-to-doc audit mapping for prompt-bearing files
+## Repository layout
+
+```
 claude-code-system-promtps/
 ├── README.md
 ├── .gitignore
 │
 ├── system-prompt/
 │   ├── main-system-prompt.md
-│   └── security-instruction.md
+│   ├── security-instruction.md
+│   └── effective-system-prompt-selection.md
 │
 ├── tools/
 │   ├── file-tools.md
@@ -173,6 +267,7 @@ Supporting prompt surfaces include memory extraction/selection prompts, compacti
 ## Coverage summary
 
 - Core system prompt and security policy
+- Effective system-prompt selection logic (`buildEffectiveSystemPrompt`)
 - Full tool prompt set used in the main runtime
 - Bundled skills and command entry prompts (including `/update-config`)
 - Memory subsystem prompts (selection, extraction, session notes, consolidation)
@@ -191,6 +286,7 @@ Supporting prompt surfaces include memory extraction/selection prompts, compacti
 3. Use **skills/** and **commands/** for workflow prompts.
 4. Use **memory/** and **services/** for background model prompt behavior.
 5. Use **internal-agents/**, **permissions/**, and **interface/** for internal/runtime-specific prompt surfaces.
+6. Use **audit/** to verify source-to-doc coverage.
 
 ---
 

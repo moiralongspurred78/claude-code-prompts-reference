@@ -3,6 +3,7 @@
 This file maps prompt-bearing source files to documentation in this repo.
 
 ## Legend
+
 - ✅ documented
 - ⚠️ bundled/indirect surface (asset not present as standalone source file)
 
@@ -12,6 +13,7 @@ This file maps prompt-bearing source files to documentation in this repo.
 
 - ✅ `src/constants/prompts.ts` -> `system-prompt/main-system-prompt.md`
 - ✅ `src/constants/cyberRiskInstruction.ts` -> `system-prompt/security-instruction.md`
+- ✅ `src/utils/systemPrompt.ts` -> `system-prompt/effective-system-prompt-selection.md`
 
 ---
 
